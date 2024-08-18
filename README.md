@@ -1,6 +1,6 @@
 # drive_mate_real
 
-A new Flutter project.
+2024 전국대회 이전 예상과제 풀이
 
 ## Getting Started
 
