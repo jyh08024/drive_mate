@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:drive_mate_real/page/login.dart';
 import 'package:drive_mate_real/page/main/home.dart';
 import 'package:flutter/material.dart';
 import 'package:drive_mate_real/utils/pallete.dart';
@@ -41,7 +42,7 @@ class SplashState extends State<SplashScreen> {
         _timer?.cancel();
 
         Future.delayed(const Duration(milliseconds: 2000), () {
-          // Navigator.push(context, MaterialPageRoute(builder: (context) => const HomePage()));
+          Navigator.push(context, MaterialPageRoute(builder: (context) => const Login()));
         });
       }
     });
